@@ -1,0 +1,40 @@
+# [핵심] 어느 폴더 안에 있든 상관없이 무시 (**/ 사용)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Mm]emoryCaptures/
+**/[Aa]ssets/AssetStoreTools*
+
+# 유니티/비주얼 스튜디오 프로젝트 파일들
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.suo
+**/*.tmp
+**/*.user
+**/*.userprefs
+**/*.pidb
+**/*.booproj
+**/*.svd
+**/*.pdb
+**/*.opendb
+**/*.IDB.List
+**/*.v12.suo
+**/*.2017.v12.suo
+**/*.VSCodeConfig
+**/*.tsconfig.json
+
+# 에디터 및 OS 파일
+**/.DS_Store
+**/.DS_Store?
+**/[Th]umbs.db
+**/Icon?
+**/ehthumbs.db
+**/Desktop.ini
+
+# 유니티 내부 크래시 리포트 및 사용자 설정
+**/sysinfo.txt
+**/UserSettings/
