@@ -1,36 +1,71 @@
 using UnityEngine;
 
-public class Juui5 : MonoBehaviour // 숫자로 시작하면 안 돼요!
+public class Juui5 : MonoBehaviour
 {
-    public GameObject cuub1;
-    public GameObject cuub2;
-    public GameObject cuub3;
-    public GameObject cuub4;
-    void Start()
-    {
-        // 1. 소문자 transform으로 시작
-        // 2. 대문자 Translate 함수 사용
-        // 3. Vector2.up (0, 1) 대신 3D라면 Vector3.up (0, 1, 0) 권장
-        
-    }
-    private void OnCollisionEnter(Collision collision)
-    {
-        // 부딪힌 상대방(collision)의 태그가 "cuub1" 인지 확인
-        if (collision.gameObject.CompareTag("cuub1"))
+    [Header("Settings")]
+    public float moveSpeed = 3f;
+    public GameObject startbutton;
+    public GameObject gameoverText;
 
-        {
-            transform.Translate(Vector3.left * Time.deltaTime);
-            Debug.Log("cuub1과 부딪혔다! 왼쪽으로 꺾습니다.");
-             // 상태 변경
-        }
+    private Vector3 moveDir = Vector3.zero;
+    private bool isMoving = false;
+
+    // 1. 게임 시작 (버튼 연결용)
+    public void GameStart()
+    {
+        if (startbutton != null) startbutton.SetActive(false);
+        if (gameoverText != null) gameoverText.SetActive(false);
+
+        StartMoving(Vector3.up); // 처음엔 위로 시작
     }
 
     void Update()
     {
-        transform.Translate(Vector3.up * Time.deltaTime);
-        
-        
-        // 여기에 코드를 넣으면 매 프레임마다 움직입니다.
+        if (!isMoving) return;
+
+        // 설정된 방향(moveDir)으로 지속 이동
+        transform.Translate(moveDir * moveSpeed * Time.deltaTime);
+
+        // 왼쪽으로 이동 중일 때 화면 밖(-7)으로 나가면 정지 (예시 로직)
+        if (moveDir == Vector3.left && transform.position.x < -7f)
+        {
+            StopMoving();
+        }
     }
 
+    public void StartMoving(Vector3 dir)
+    {
+        moveDir = dir.normalized;
+        isMoving = true;
+    }
+
+    public void StopMoving()
+    {
+        isMoving = false;
+        moveDir = Vector3.zero;
+        if (gameoverText != null) gameoverText.SetActive(true);
+    }
+
+    // 2. 트리거 충돌 시 방향 전환 (조건부 발동)
+    private void OnTriggerEnter(Collider other)
+    {
+        if (!isMoving) return; // 게임 중이 아닐 땐 무시
+
+        // 태그에 따라 이동 방향(moveDir)만 교체
+        switch (other.tag)
+        {
+            case "RTCbue":
+                moveDir = Vector3.right;
+                break; // switch문에는 break가 필수입니다!
+            case "LTCbue":
+                moveDir = Vector3.left;
+                break;
+            case "RDCbue":
+                moveDir = Vector3.down;
+                break;
+            case "Cbue":
+                moveDir = Vector3.right;
+                break;
+        }
+    }
 }

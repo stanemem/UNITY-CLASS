@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\unitysave\\unity5ju\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\5jugwaze\\5ju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\5jugwaze\\5ju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\5jugwaze\\juui5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\5jugwaze\\juui5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\5ju\\pcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\5ju\\pcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\5ju\\sphere force.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\5ju\\sphere force.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\5ju\\jump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\5ju\\jump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\scripts\\cubeclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\scripts\\cubeclickidong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cubeclickidong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\5ju\\jump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\5ju\\jump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\5ju\\sphere force.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\5ju\\sphere force.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\unitysave\\unity5ju\\assets\\4juscripts\\cubeclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,14 +47,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "5ju.cs",
-              "DocumentMoniker": "D:\\unitysave\\unity5ju\\Assets\\5jugwaze\\5ju.cs",
-              "RelativeDocumentMoniker": "Assets\\5jugwaze\\5ju.cs",
-              "ToolTip": "D:\\unitysave\\unity5ju\\Assets\\5jugwaze\\5ju.cs",
-              "RelativeToolTip": "Assets\\5jugwaze\\5ju.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "juui5.cs",
+              "DocumentMoniker": "D:\\unitysave\\unity5ju\\Assets\\5jugwaze\\juui5.cs",
+              "RelativeDocumentMoniker": "Assets\\5jugwaze\\juui5.cs",
+              "ToolTip": "D:\\unitysave\\unity5ju\\Assets\\5jugwaze\\juui5.cs",
+              "RelativeToolTip": "Assets\\5jugwaze\\juui5.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwBUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T02:26:40.808Z",
+              "WhenOpened": "2026-04-02T02:30:09.432Z",
               "EditorCaption": ""
             },
             {
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "sphere Force.cs",
               "DocumentMoniker": "D:\\unitysave\\unity5ju\\Assets\\5ju\\sphere Force.cs",
               "RelativeDocumentMoniker": "Assets\\5ju\\sphere Force.cs",
@@ -85,20 +85,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Jump.cs",
               "DocumentMoniker": "D:\\unitysave\\unity5ju\\Assets\\5ju\\Jump.cs",
               "RelativeDocumentMoniker": "Assets\\5ju\\Jump.cs",
               "ToolTip": "D:\\unitysave\\unity5ju\\Assets\\5ju\\Jump.cs",
               "RelativeToolTip": "Assets\\5ju\\Jump.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-02T01:11:19.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "cubeclickidong.cs",
               "DocumentMoniker": "D:\\unitysave\\unity5ju\\Assets\\Scripts\\cubeclickidong.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\cubeclickidong.cs",
@@ -106,12 +106,11 @@
               "RelativeToolTip": "Assets\\Scripts\\cubeclickidong.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T00:50:40.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T00:50:40.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "cubeclick.cs",
               "DocumentMoniker": "D:\\unitysave\\unity5ju\\Assets\\Scripts\\cubeclick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\cubeclick.cs",
@@ -119,8 +118,7 @@
               "RelativeToolTip": "Assets\\Scripts\\cubeclick.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T00:50:21.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T00:50:21.368Z"
             },
             {
               "$type": "Document",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "Assets\\4juscripts\\CubeCLICK.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T00:22:37.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T00:22:37.495Z"
             },
             {
               "$type": "Document",
@@ -145,8 +142,7 @@
               "RelativeToolTip": "Assets\\4juscripts\\playercontoroller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T00:19:21.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-02T00:19:21.525Z"
             }
           ]
         }
