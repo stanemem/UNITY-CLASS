@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\unity save\\Unity class rebuild\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity save\\unity class rebuild\\assets\\shihamscripts\\q10scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\shihamscripts\\q10scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity save\\unity class rebuild\\assets\\shihamscripts\\q9scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\shihamscripts\\q9scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity save\\unity class rebuild\\assets\\shihamscripts\\q8scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\shihamscripts\\q8scripts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\unity save\\unity class rebuild\\assets\\shihamscripts\\q7ufo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\shihamscripts\\q7ufo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Q10SCRIPTS.cs",
+              "DocumentMoniker": "C:\\unity save\\Unity class rebuild\\Assets\\shihamscripts\\Q10SCRIPTS.cs",
+              "RelativeDocumentMoniker": "Assets\\shihamscripts\\Q10SCRIPTS.cs",
+              "ToolTip": "C:\\unity save\\Unity class rebuild\\Assets\\shihamscripts\\Q10SCRIPTS.cs",
+              "RelativeToolTip": "Assets\\shihamscripts\\Q10SCRIPTS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:38:12.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q9SCRIPTS.cs",
+              "DocumentMoniker": "C:\\unity save\\Unity class rebuild\\Assets\\shihamscripts\\Q9SCRIPTS.cs",
+              "RelativeDocumentMoniker": "Assets\\shihamscripts\\Q9SCRIPTS.cs",
+              "ToolTip": "C:\\unity save\\Unity class rebuild\\Assets\\shihamscripts\\Q9SCRIPTS.cs",
+              "RelativeToolTip": "Assets\\shihamscripts\\Q9SCRIPTS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:19:26.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q8SCRIPTS.cs",
+              "DocumentMoniker": "C:\\unity save\\Unity class rebuild\\Assets\\shihamscripts\\Q8SCRIPTS.cs",
+              "RelativeDocumentMoniker": "Assets\\shihamscripts\\Q8SCRIPTS.cs",
+              "ToolTip": "C:\\unity save\\Unity class rebuild\\Assets\\shihamscripts\\Q8SCRIPTS.cs",
+              "RelativeToolTip": "Assets\\shihamscripts\\Q8SCRIPTS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:16:41.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Q7UFO.cs",
+              "DocumentMoniker": "C:\\unity save\\Unity class rebuild\\Assets\\shihamscripts\\Q7UFO.cs",
+              "RelativeDocumentMoniker": "Assets\\shihamscripts\\Q7UFO.cs",
+              "ToolTip": "C:\\unity save\\Unity class rebuild\\Assets\\shihamscripts\\Q7UFO.cs",
+              "RelativeToolTip": "Assets\\shihamscripts\\Q7UFO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:07:33.767Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
